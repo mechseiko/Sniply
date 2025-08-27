@@ -1,8 +1,11 @@
 import React from 'react';
 
 const Hero = () => (
-  <section className="bg-surface py-20 px-6 text-center border-b border-border">
-    <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
+  <section className="bg-surface py-10 px-5 text-center border-b border-border">
+    <h1 className="text-5xl md:text-6xl text-purple-700 font-extrabold mb-5">
+      Sniply
+    </h1>
+    <h1 className="text-3xl md:text-4xl font-extrabold mb-4">
       Trim your links. Share with style.
     </h1>
     <p className="text-text-muted max-w-xl mx-auto">

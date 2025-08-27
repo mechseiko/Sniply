@@ -7,11 +7,11 @@ const Shortener = () => {
   const handleShorten = () => {
     if (!url) return;
     const fakeId = Math.random().toString(36).substring(2, 8);
-    setShortened(`https://short.ly/${fakeId}`);
+    setShortened(`https://snip.ly-sigma/${fakeId}`);
   };
 
   return (
-    <section className="bg-bg py-16 px-6 text-center">
+    <section className="bg-bg py-10 px-6 text-center">
       <div className="max-w-xl mx-auto">
         <input
           type="text"
