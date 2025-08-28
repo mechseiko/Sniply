@@ -13,7 +13,7 @@ const Shortener = ({ url, setUrl, customSlug, setCustomSlug, shortened, showStep
           Trim your links. Share with style.
         </h2>
         <p className="text-gray-100 max-w-2xl mx-auto text-lg">
-          A fast, responsive URL shortener built with React and Tailwind CSS. Paste your long
+          A fast, responsive URL shortener. Paste your long
           link, click shorten, and get a sleek, shareable version instantly.
         </p>
       </section>
